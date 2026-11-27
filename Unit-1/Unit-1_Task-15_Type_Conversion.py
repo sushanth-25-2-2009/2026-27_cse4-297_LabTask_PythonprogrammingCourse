@@ -1,0 +1,7 @@
+text = input("Enter a number: ")
+integer_value = int(text)
+float_value = float(text)
+string_value = str(integer_value)
+print("Integer:", integer_value)
+print("Float:", float_value)
+print("String:", string_value)
