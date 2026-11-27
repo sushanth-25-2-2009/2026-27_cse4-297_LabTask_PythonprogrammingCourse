@@ -1,14 +1,24 @@
+
+# Unit-2D Task-5: Count Vowels, Consonants, Digits and Spaces
+
 text = input("Enter a string: ")
-vowels = consonants = digits = spaces = 0
+
+vowels = 0
+consonants = 0
+digits = 0
+spaces = 0
+
 for ch in text:
-    if ch.lower() in "aeiou":
-        vowels += 1
-    elif ch.isalpha():
-        consonants += 1
+    if ch.isalpha():
+        if ch.lower() in "aeiou":
+            vowels += 1
+        else:
+            consonants += 1
     elif ch.isdigit():
         digits += 1
-    elif ch.isspace():
+    elif ch == " ":
         spaces += 1
+
 print("Vowels:", vowels)
 print("Consonants:", consonants)
 print("Digits:", digits)
