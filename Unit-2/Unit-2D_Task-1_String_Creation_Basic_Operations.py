@@ -1,0 +1,6 @@
+first = input("Enter first string: ")
+second = input("Enter second string: ")
+print("First string:", first)
+print("Concatenation:", first + second)
+print("Repetition:", first * 3)
+print("Slicing of first string:", first[0:3])
