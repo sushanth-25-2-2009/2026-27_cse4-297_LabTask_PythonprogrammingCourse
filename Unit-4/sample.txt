@@ -1,0 +1,2 @@
+Python is a beginner-friendly programming language.
+Python supports lists, dictionaries and file handling.

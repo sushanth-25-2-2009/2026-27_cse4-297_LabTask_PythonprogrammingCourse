@@ -1,0 +1,10 @@
+student = {"name": "Ravi", "age": 20, "course": "CSE"}
+print("Keys:", student.keys())
+print("Values:", student.values())
+print("Items:", student.items())
+print("Name using get:", student.get("name"))
+student.update({"age": 21})
+print("After update:", student)
+removed = student.pop("course")
+print("Removed course:", removed)
+print("Final dictionary:", student)
